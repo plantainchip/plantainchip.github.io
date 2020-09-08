@@ -1,0 +1,14 @@
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+.art-thumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
