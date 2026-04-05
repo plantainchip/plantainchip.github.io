@@ -1,12 +1,12 @@
+- title: Cookie Catch
+  description: Catch the falling cookies with your pink bowl.
+  thumbnail: /assets/cookiecatch.png
+  url: https://plantainchip.itch.io/cookie-catch
+
 - title: Conveyor Belt Milk
   description: An infinite scroller game about a cow dodgeing or collecting milk.
   thumbnail: /assets/milkgame.png
   url: https://plantainchip.itch.io/conveyor-belt-milk
-
-- title: Toilet Quest
-  description: A short game about navigating through the woods to find a toilet.
-  thumbnail: /assets/tq.png
-  url: https://plantainchip.itch.io/toilet-quest-beta
 
 - title: Drinkle
   description: Contributed pixel art for a cocktail recipe app.
