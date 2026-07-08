@@ -1,7 +1,5 @@
 # Jekyll Boilerplate
 
-![](https://media4.giphy.com/media/XCySRAv55S4hMviZfw/200w.gif?cid=6c09b952oebp6y3fc6j5r5oj42dud2x5rg8g18t4uj8e8826&ep=v1_gifs_search&rid=200w.gif&ct=g)
-
 ## Prereq
 
 - `https://rvm.io/`
@@ -29,7 +27,6 @@
 - Turn on github pages
 - Profit 🤑💰
 
-![](https://www.gifcen.com/wp-content/uploads/2022/04/bully-maguire-dancing-gif-2.gif)
 
 
 
