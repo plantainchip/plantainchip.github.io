@@ -7,8 +7,8 @@ categories:
 
 I was watching a youtube video about someone that scraped data from about 10,000 games from Steam and he used a neural network AI to study the patterns from the games that did well vs the ones that didn't and what patterns came from their screenshots. I participate in game jams on itch.io and I observe my own analytics on the site so i got the idea to do my own investigation about patterns in the popular tab but on a small scale.
 
-### The Setup: 
-With the help of Claude AI, I wrote a python script that I can run in my terminal that scraped the data from https://itchdb.info/. Specifically from the hot chart because I wanted information on what these popular games have in common. Here is the python script:<br>
+## The Setup: 
+With the help of Claude AI, I wrote a python script that I can run in my terminal that scraped the data from a site called itchdb. Specifically from the hot chart because I wanted information on what these popular games have in common. Here is the python script:<br>
 
 ```py
 import requests
@@ -41,7 +41,7 @@ print("Saved to results.json")
 
 
 Then I ran the script on my computer and it exported a json file filled with 250 games. Then from that json file I converted it to a sqlite database. The reason I choose python for this project is because sqlite3 is included in the python library. <br>
-![screenshot](assets/blog_itch_analysis/screenshot_term.png)
+![screenshot](/assets/blog_itch_analysis/screenshot_term.png)
 
 This next block of code is what I used to convert my json file into a database file so I can query it. <br>
 
@@ -160,23 +160,23 @@ print("Exported: top100_tag_frequency.csv")
 
 Next to answer my next questions, again with the help of Claude, I wrote some scripts that would query the database and then return a CSV file which I can load into Google Sheets for easy data visualization. <br>
 
-### Questions:
+## Questions:
 From the top 100 trending games on itch.io, what's the most popular tag? <br>
-![trending_tags](assets/blog_itch_analysis/trending_tags.png)
+![trending_tags](/assets/blog_itch_analysis/trending_tags.png)
 
-Does the number of followers have anything to do with the popularity of the game?
-![followers_ratings](assets/blog_itch_analysis/followers_ratings.png)
+Does the number of followers have anything to do with the popularity of the game? <br>
+![followers_ratings](/assets/blog_itch_analysis/followers_ratings.png)
 
-What kinds of tags are combined with the Romance genre in the top 30 games?
-![romance_chart](assets/blog_itch_analysis/romance_chart.png)
+What kinds of tags are combined with the Romance genre in the top 30 games? <br>
+![romance_chart](/assets/blog_itch_analysis/romance_chart.png)
 
-What kinds of tags are combined with the horror genre in the top 30 games?
-![horror_chart](assets/blog_itch_analysis/horror_chart.png)
+What kinds of tags are combined with the horror genre in the top 30 games? <br>
+![horror_chart](/assets/blog_itch_analysis/horror_chart.png)
 
-What kinds of tags are combined with the Dating Sim genre in the top 30 games?
-![dating_sim_chart](assets/blog_itch_analysis/dating_sim_chart.png)
+What kinds of tags are combined with the Dating Sim genre in the top 30 games? <br>
+![dating_sim_chart](/assets/blog_itch_analysis/dating_sim_chart.png)
 
-### What does it mean?
+## What does it mean?
 Aside from the No-AI tag, the top most popular tags were Romance, Horror, and Dating-Simulator. I would consider Dating-Simulator to be a subgenre under Romance so basically the most popular genre of games on itch.io would be Romance and Horror. In addition to the Romance genre, the most combined subgenres would all be romance related or that hint towards visual novel games. Interactive fiction and multiple endings are commonly associated with visual novels which are narrative based. <br>
 
 Secondly, it looks like the number of followers a developer has on the site may not have anything to do with it's ratings. The blue dots that represent the number of followers are scattered all over the place. This one was inconclusive. <br>
