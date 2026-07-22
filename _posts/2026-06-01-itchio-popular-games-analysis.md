@@ -164,8 +164,12 @@ Next to answer my next questions, again with the help of Claude, I wrote some sc
 From the top 100 trending games on itch.io, what's the most popular tag? <br>
 ![trending_tags](/assets/blog_itch_analysis/trending_tags.png)
 
+Aside from the No-AI tag, the top most popular tags were Romance, Horror, and Dating-Simulator. I would consider Dating-Simulator to be a subgenre under Romance so basically the most popular genre of games on itch.io would be Romance and Horror. In addition to the Romance genre, the most combined subgenres would all be romance related or that hint towards visual novel games. Interactive fiction and multiple endings are commonly associated with visual novels which are narrative based. <br>
+
 Does the number of followers have anything to do with the popularity of the game? <br>
 ![followers_ratings](/assets/blog_itch_analysis/followers_ratings.png)
+
+Secondly, it looks like the number of followers a developer has on the site may not have anything to do with it's ratings. The blue dots that represent the number of followers are scattered all over the place. This one was inconclusive. <br>
 
 What kinds of tags are combined with the Romance genre in the top 30 games? <br>
 ![romance_chart](/assets/blog_itch_analysis/romance_chart.png)
@@ -176,13 +180,10 @@ What kinds of tags are combined with the horror genre in the top 30 games? <br>
 What kinds of tags are combined with the Dating Sim genre in the top 30 games? <br>
 ![dating_sim_chart](/assets/blog_itch_analysis/dating_sim_chart.png)
 
-## What does it mean?
-Aside from the No-AI tag, the top most popular tags were Romance, Horror, and Dating-Simulator. I would consider Dating-Simulator to be a subgenre under Romance so basically the most popular genre of games on itch.io would be Romance and Horror. In addition to the Romance genre, the most combined subgenres would all be romance related or that hint towards visual novel games. Interactive fiction and multiple endings are commonly associated with visual novels which are narrative based. <br>
-
-Secondly, it looks like the number of followers a developer has on the site may not have anything to do with it's ratings. The blue dots that represent the number of followers are scattered all over the place. This one was inconclusive. <br>
-
 Next, the horror genre is interesting because of the subgenres it is combined with. Going through the list we see tags like dating sim, or cute, or interactive fiction. This tells me that horror juxtaposed with something lighter like romance or something adorable makes it interesting to players. Perhaps hiding the horror behind something cute makes it scarier. The thing that stood out to me is dating sim and interactive fiction being so high up. I think since horror and romance at a glance feels like complete opposites, mixing the two genres together makes for interesting story telling. Or it could be relatable since I know for a fact that a lot of people have their own dating horror story in real life and maybe this is a reflection of that.
 Now for the dating sim section, based on the combined tags, this genre is more of a mechanic for players to play. <br>
 
-In conclusion, I have a hypothesis that if I  wanted to make a game that did moderately well on itch.io, I would have to create a visual novel game that has horror and romance elements. The graphics would have to be cute, 2D and made without AI. Having a dating simulation section would help boost it as well along with character customization. Making it light hearted with horror elements would create an interesting dynamic since they are two opposing genres in stories. But it is important to remember that is is just a hypothesis and is small slice of all of the hard work that goes into making a sucessful game. There's so much that happens behind the scenes and this project has not taken marketing, gameplay, design, passion, etc into account. This project was done out of curiosity and this should only shed light on a small piece of the puzzle of success. <br>
+
+## What does it mean?
+In conclusion, I have a hypothesis that if I  wanted to make a game that did moderately well on itch.io, I would have to create a visual novel game that has horror and romance elements. The graphics would have to be cute, 2D and made without AI. Having a dating simulation section would help boost it as well along with character customization. Making it light hearted with horror elements would create an interesting dynamic since they are two opposing genres in stories. But it is important to remember that is is just a hypothesis and is small slice of all of the hard work that goes into making a sucessful game. There's so much that happens behind the scenes and this project has not taken marketing, gameplay, design, passion, etc into account. This project was done out of curiosity and this should only shed light on a small piece of the puzzle of what might make a game interesting to an players. <br>
 
