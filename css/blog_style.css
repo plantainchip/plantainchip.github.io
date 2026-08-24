@@ -1,46 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 
-/*general*/ 
-.home_button{
-    background-color: #dfb9cd; 
-    border: none; 
-    color: white; 
-    font-size: 22px; 
-    cursor: pointer;
-    opacity: 0.7;
-    border-radius: 2px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-  }
-.home_button:hover{
-    background-color: #cb8fcc;
-  }
-
-  /*post content*/
-.blog-posts{
-    background-image: url("/assets/bg_dark.gif");
-    background-position: center;
-    color:#cb8fcc;
-    margin-top: 5%;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 10%;
+body{
+    background-color: #ffffed;
+    font-family: "Domine", serif;
+}
+/*post content*/
+.blog-posts {
+  font-family: "Domine", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#4169E1;
+  margin-top: 5%;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 10%;
 
 }
 
 /*post title*/
-.post-content-title{
-    font-size: 40px;
+.post-content-title {
+  font-size: 40px;
+  color:#FA8072;
 }
 
 code {
-    background: none !important;
+  background: none !important;
 }
 
 .post-content img {
   width: 100%;
   object-fit: contain;
+}
+
+
+/*nav bar ----------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4169E1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-style: normal;
+  
+}
+
+ul li a:hover {
+  background-color: #FA8072;
 }

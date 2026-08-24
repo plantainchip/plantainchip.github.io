@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -25,24 +26,7 @@
 
 /*general*/ 
 
-.home_button{
-  background-color: #dfb9cd; 
-  border: none; 
-  color: white; 
-  font-size: 22px; 
-  cursor: pointer;
-  opacity: 0.7;
-  border-radius: 2px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  height: 32px;
-  width: 32px;
-  text-align: center;
-}
-.home_button:hover{
-  background-color: #cb8fcc;
-}
+
 
 .social_media_box{
   text-align: center;
@@ -55,7 +39,7 @@
 
 .social_media:hover{
   opacity:1;
-  filter: drop-shadow(0 0 0.75rem #c665c8);
+  /* filter: drop-shadow(0 0 0.75rem #87CEFA); */
 }
 
 .social_media_box img{
@@ -64,14 +48,22 @@
   margin: 15px;;
 }
 
+.descriptionBar{
+  font-style: normal;
+  text-align: center;
+  background-color: #F0E68C;
+  padding:8px;
+  font-size: 13px;
 
-/*index*/
+}
+
+/*index --------------------------------*/
 body {
-  font-family: 'VT323', monospace;
-  /*background: #ece9e4*/
-  background-image: url("/assets/bg_night.gif");
-  background-position: center;
-  background-size: cover;
+  font-family: "Domine", serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color:#ffffed;
+  
 }
 
 .container {
@@ -82,8 +74,8 @@ body {
 
 .header h1{
   text-align: center;
-  color:#dfb9cd;
-  font-size: 100px;
+  color:#CD5C5C;
+  font-size: 80px;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -91,15 +83,16 @@ body {
 
 .header h2{
   text-align: center;
-  color:#dfb9cd;
-  font-size: 50px;
+  color:#CD5C5C;
+  font-size: 40px;
   font-weight: 300;
   padding: 0;
 }
 
 .header h3{
+  font-family: "Figtree", sans-serif;
   text-align: center;
-  color:#dfb9cd;
+  color:#CD5C5C;
   font-size: 30px;
   font-weight: 300;
   padding: 0;
@@ -108,36 +101,25 @@ body {
 
 }
 
-.button {
-  font-size: 24px;
-  color: black;
-  background-color: #dfb9cd;
-  width: 180px;
-  border:solid 0px #dfb9cd;
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-}
 
-.button:hover {
-  filter: drop-shadow(0 0 0.75rem #c665c8);
-}
 
-.main_menu {
+.main_menu img{
   text-align: center;
+  width: 192px;
+  object-fit: contain;
+  display: inline-flex;
 }
 
-/* gallery */
+
+/* gallery -----------------------*/
 .home_gif {
   width: 100%;
 }
 
-.gallery_body{
-  background-image: url("/assets/bg_dark.gif");
-  background-position: center;
-}
 
 .gallery_header{
   text-align: center;
-  color: #dfb9cd;
+  color: #FA8072;
   font-size: 70px;
   font-weight: 300;
 }
@@ -159,15 +141,12 @@ body {
 }
 
 
-/* projects */
-.project_body{
-  background-image: url("/assets/bg_night.gif");
-  background-position: center;
-}
+/* projects -----------------------*/
+
 
 .project_header{
   text-align: center;
-  color:#dfb9cd;
+  color:#FA8072;
   font-size:70px;
   font-weight: 300;
 }
@@ -217,36 +196,23 @@ body {
   
 }
 .card a:hover, .card a:active {
-  background-color: red;
+  background-color: #DB7093;
 }
 
 
-/* about */
-.about_body{
-  background-image: url("/assets/bg_night.gif");
-  background-position: center;
-}
-
-.about_header{
-  text-align: center;
-  color:#dfb9cd;
-  font-size:70px;
-}
-.about_paragraph{
-  text-align: center;
-  color: #dfb9cd;
-  font-size:50px;
-}
 
 
-/*blog table of contents page*/
+
+/*blog table of contents page ---------------------*/
 .posts{
   background-position: center;
-  font-size:30px;
+  font-size:20px;
+  font-style: normal;
+
 }
 
 .date{
-  color: #a13870;
+  color: #CD5C5C;
 }
 
 .posts .date{
@@ -255,3 +221,31 @@ body {
 }
 
   
+
+/*nav bar ----------*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4169E1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-style: normal;
+  
+}
+
+ul li a:hover {
+  background-color: #FA8072;
+}
+
+
