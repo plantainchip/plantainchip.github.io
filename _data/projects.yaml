@@ -1,12 +1,17 @@
+- title: Itch.io Analysis
+  description: A dive into Itch.io most popular games
+  thumbnail: /assets/blog_itch_analysis/trending_tags.png
+  url: https://maitri.me/games/2026/06/01/itchio-popular-games-analysis.html
+
 - title: Cookie Catch
   description: Catch the falling cookies with your pink bowl.
   thumbnail: /assets/cookiecatch.png
   url: https://plantainchip.itch.io/cookie-catch
 
 - title: Conveyor Belt Milk
-  description: An infinite scroller game about a cow dodgeing or collecting milk.
+  description: An infinite scroller game about a cow dodging or collecting milk.
   thumbnail: /assets/milkgame.png
-  url: https://plantainchip.itch.io/conveyor-belt-milk
+  url: https://maitri.me/conveyor_belt_milk/
 
 - title: Drinkle
   description: Contributed pixel art for a cocktail recipe app.

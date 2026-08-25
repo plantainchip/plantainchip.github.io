@@ -73,9 +73,9 @@ copy paste this in there<br>
 ```
 
 
-- replace BUTLER_API_KEY with the name of your key from your github secrets.
-- make itchUsername your itch.io username
-- make itchGameId the last part of the url for your game's itch.io page. The id of the url is the stuff after the slash
+replace BUTLER_API_KEY with the name of your key from your github secrets. <br>
+make itchUsername your itch.io username <br>
+make itchGameId the last part of the url for your game's itch.io page. The id of the url is the stuff after the slash <br>
 
 Do not put any zip files in this repo or it won't work. <br>
 Then commit and push everything to github. In a few mins your game should be published and working. Now everytime you make a change to the code, all you do is commit and push to github and it should update your itch.io page. 
