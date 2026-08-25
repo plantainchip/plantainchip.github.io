@@ -10,10 +10,10 @@ I use KAPLAY to make web games and here is how I put those games on github pages
 
 Step 0: Save all your work in your Github. 
 
-Part 1 (in your code editor): 
-- make a folder called .github then make another folder called workflows
-- then under .github/workflows make a file called deploy.yaml (or whatever you want)
-- copy paste this in there, then commit & push to github
+Part 1 (in your code editor): <br>
+make a folder called .github then make another folder called workflows <br>
+then under .github/workflows make a file called deploy.yaml (or whatever you want) <br>
+copy paste this in there, then commit & push to github <br>
 
 ```yaml
 
@@ -54,10 +54,10 @@ jobs:
 
 
 Part 2 (in github):
-- in your repo where you saved your game, go to settings -> pages
-- Under Build and deployment, make sure Source is "Deploy from a branch"
-- and then under branch ( still under Build and deployment) change the dropdown that has None to "gh-pages" and the dropdown next to it should say "/root".
-- save your settings and then wait a few seconds. then refresh your page.
+in your repo where you saved your game, go to settings -> pages <br>
+Under Build and deployment, make sure Source is "Deploy from a branch" <br>
+and then under branch ( still under Build and deployment) change the dropdown that has None to "gh-pages" and the dropdown next to it should say "/root". <br>
+save your settings and then wait a few seconds. then refresh your page. <br>
 
 
 
